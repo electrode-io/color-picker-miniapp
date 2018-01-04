@@ -9,6 +9,7 @@
     "ern-color-picker-api": "0.0.1",
     "react": "16.0.0",
     "react-native": "0.51.0",
+    "react-native-code-push": "5.1.3-beta",
     "react-native-color-picker": "0.4.0",
     "react-native-electrode-bridge": "1.5.x"
   },

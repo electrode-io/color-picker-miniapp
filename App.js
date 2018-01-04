@@ -19,6 +19,7 @@ import {
 import {
   ColorPickerApi
 } from 'ern-color-picker-api'
+import codePush from "react-native-code-push";
 
 let currentColor
 
@@ -42,6 +43,12 @@ export default class ColorPickerDemo extends Component {
     );
   }
 }
+
+ColorPickerDemo = codePush({
+  checkFrequency: codePush.CheckFrequency.ON_APP_RESUME,
+  installMode: codePush.InstallMode.ON_NEXT_RESUME,
+  minimumBackgroundDuration: 60 * 2
+})(ColorPickerDemo);
 
 const styles = StyleSheet.create({
   container: {
