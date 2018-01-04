@@ -24,7 +24,7 @@ import codePush from "react-native-code-push";
 let currentColor
 
 export default class ColorPickerDemo extends Component {
-  alertOn = false //Useful to set to true when running standalone.
+  alertOn = true //Useful to set to true when running standalone.
   render() {
     return ( <
       ColorPicker onColorSelected = {
