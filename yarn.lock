@@ -2812,9 +2812,10 @@ react-native-color-picker@0.4.0:
     prop-types "^15.5.10"
     tinycolor2 "^1.4.1"
 
-react-native-electrode-bridge@1.5.10:
-  version "1.5.10"
-  resolved "http://registry.npmjs.org/react-native-electrode-bridge/-/react-native-electrode-bridge-1.5.10.tgz#ee8d14ee423cc52abcc38f24f5241e2b07e61bce"
+react-native-electrode-bridge@1.5.23:
+  version "1.5.23"
+  resolved "https://registry.yarnpkg.com/react-native-electrode-bridge/-/react-native-electrode-bridge-1.5.23.tgz#84a74361954451352b0aab774a0eb27380d9bb3f"
+  integrity sha512-dRXTFS6UAqbW8onm1aQsSkRBRZq8q5SKmgCpoFzFKrY8Henk9xyp8j4Fpa1s25LlufNIpRE/ORjHBUPZ2/l7FQ==
   dependencies:
     events "^1.1.1"
     uuid "^3.0.0"
